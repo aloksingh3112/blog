@@ -1,0 +1,285 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    width: 1440px;
+    padding-left: 220px;
+    padding-right: 220px;
+}
+
+.container-wrapper{
+    width: 1000px;
+}
+
+.header{
+width: 983px;
+height: 24px;
+font-family: Graphik;
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #444444;
+}
+
+.header-content{
+width: 960px;
+height: 24px;
+left: 220px;
+top: 4685px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #444444;
+margin-top: 20px;
+}
+
+.type_of_books{
+    display: flex;
+    margin-top: 33px;
+    align-items: center;
+}
+
+.fiction{
+    width: 105px;
+    height: 24px;    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #D60404;
+}
+
+.verticalline{
+    width: 18px;
+    height: 0px;
+    border: 1px solid #4C4600;
+    vertical-align: center;
+    transform: rotate(90deg);
+}
+
+.nonfiction{
+width: 185px;
+height: 24px;
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #888888;
+
+}
+
+.books{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.card{
+    width: 223px;
+    height: 348px;
+    
+}
+
+.card.next{
+    margin-top:30px
+}
+
+.left{
+    margin-left:36px;
+}
+.right{
+    margin-right:36px;
+}
+
+.speech-bubble {
+    display: table;
+    position: relative;
+    width: 1000px;
+    height: 307px;
+    background-color:#F0F0F0;
+    margin-top:36px
+    
+  }
+
+  .active{
+      display: none;
+  }
+
+  .speech-bubble:after {
+    content: "";
+    position: absolute;
+    border: 28px solid transparent;
+    
+  }
+  
+
+  .speech-bubble-first:after {
+    border-bottom-color: #F0F0F0;
+    left: 44px;
+    bottom: 100%;
+  }
+
+  .speech-bubble-second:after {
+    border-bottom-color: #F0F0F0;
+    left: 300px;
+    bottom: 100%;
+  }
+  .speech-bubble-third:after {
+    border-bottom-color: #F0F0F0;
+    left: 600px;
+    bottom: 100%;
+  }
+
+  .speech-bubble-fourth:after {
+    border-bottom-color: #F0F0F0;
+    left: 800px;
+    bottom: 100%;
+  }
+
+
+
+  .speech-bubble-fifth:after {
+    border-bottom-color: #F0F0F0;
+    left: 44px;
+    bottom: 100%;
+  }
+
+
+  .speech-bubble-sixth:after {
+    border-bottom-color: #F0F0F0;
+    left: 300px;
+    bottom: 100%;
+  }
+
+  .speech-bubble-seventh:after {
+    border-bottom-color: #F0F0F0;
+    left: 600px;
+    bottom: 100%;
+  }
+
+
+
+  .book-container{
+    margin-left: 29px;
+    width: 932px;
+  }
+
+
+  .content-wrapper{
+      display:flex;
+      justify-content: space-between;
+  }
+
+
+  .content-header{
+ margin-top: 33px;     
+font-family: Graphik;
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #444444;
+  }
+
+
+.author{
+    margin-top:14px;
+    width: 244px;
+    height: 24px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #444444;
+
+  }
+
+  .book-type{
+      margin-top:14px;
+    width: 139px;
+    height: 24px;
+    left: 1042px;
+    top: 5256px;
+    
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;    
+    letter-spacing: 0.05em;    
+    color: #444444;
+  }
+
+
+  .content-body{
+      margin-top: 28px;
+    width: 932px;
+    height: 90px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;    
+    letter-spacing: 0.05em;    
+    color: #444444;
+  }
+
+  .content-footer-left{
+    margin-top: 35px;  
+    width: 178px;
+    height: 30px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left:4px;
+  }
+
+  .content-footer-left-data{
+width: 150px;
+height: 22px;
+font-family: Graphik;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 24px;
+letter-spacing: 0.05em;
+color: #000000;
+  }
+
+
+  .content-footer-right{
+    width: 113px;
+    height: 24px;
+    margin-top: 35px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    
+    letter-spacing: 0.05em;
+    
+    
+    color: #D60404;
+  }
+
+
+
+
+
