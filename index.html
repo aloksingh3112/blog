@@ -18,12 +18,14 @@
             </div>
 
             <div class='type_of_books'>
-                <div class='fiction'>FICTION</div>
+                <div class='fiction links isactive' onclick="openTab(event, 'fiction')" id='default'>FICTION</div>
                 <div class='verticalline'></div>
-                <div class='nonfiction'>NON&#045;FICTION</div>
+                <div class='nonfiction links' onclick="openTab(event, 'nonfiction')">NON&#045;FICTION</div>
             </div>
 
-            <div class='books'>
+            <!-- fictional books -->
+
+            <div class='books' id='fiction'>
                 <div class='card ' onclick="openBook(event, '1')"><img
                         src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
                         height="348px"></div>
@@ -274,10 +276,264 @@
             </div>
 
 
+          <!-- non fictional books -->
+
+            <div class='books' id='nonfiction'>
+                <div class='card ' onclick="openBook(event, '9')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+                <div class='card left' onclick="openBook(event, '10')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+                <div class='card left right' onclick="openBook(event, '11')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+                <div class='card ' onclick="openBook(event, '12')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+
+                <div class="speech-bubble speech-bubble-first active" id='9'>
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="speech-bubble speech-bubble-second active" id='10'>
+
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="speech-bubble speech-bubble-third active" id='11'>
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="speech-bubble speech-bubble-fourth active" id='12'>
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class='card next' onclick="openBook(event, '13')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+                <div class='card next left' onclick="openBook(event, '14')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+                <div class='card next left right' onclick="openBook(event, '15')"><img
+                        src="https://images-na.ssl-images-amazon.com/images/I/71qYY1IalhL.jpg" alt="" width="223px"
+                        height="348px"></div>
+
+                <div class="speech-bubble speech-bubble-fifth active" id='13'>
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="speech-bubble speech-bubble-sixth active" id='14'>
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="speech-bubble speech-bubble-seventh active" id='15'>
+                    <div class='book-container'>
+                        <div class='content-wrapper'>
+                            <div class='content-header'>Ghosts of Spain</div>
+                            <div></div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='author'>Author:Giles Tremlett</div>
+                            <div class='book-type'>Mystery, Suspense</div>
+                        </div>
+
+                        <div class='content-body'>
+                           <div> When three working-class teens enroll in an exclusive private school in Spain, the clash
+                            between them and the wealthy students.When three working-class teens enroll in an exclusive
+                            private school in Spain, the clash between them and the wealthy students . When three
+                            working-class teens enroll in an exclusive private school in Spain, the clash between them
+                            and the wealthy students.</div>
+                        </div>
+
+                        <div class='content-wrapper'>
+                            <div class='content-footer-left'>
+                                <div class='content-footer-left-data'>Available on Kindle</div>
+                            </div>
+                            <div class='content-footer-right'>
+                                Buy Now
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
     <script src="./js/main.js"></script>
+    <script>
+    </script>
 </body>
 
 </html>

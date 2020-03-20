@@ -6,9 +6,8 @@
 
 
 .container{
-    width: 1440px;
-    padding-left: 220px;
-    padding-right: 220px;
+  display: flex;
+  justify-content: center;
 }
 
 .container-wrapper{
@@ -57,7 +56,10 @@ margin-top: 20px;
     font-size: 24px;
     line-height: 24px;
     letter-spacing: 0.05em;
-    color: #D60404;
+}
+
+.isactive{
+  color: red !important;
 }
 
 .verticalline{
@@ -91,6 +93,10 @@ color: #888888;
     width: 223px;
     height: 348px;
     
+}
+
+.hidden{
+  display: none;
 }
 
 .card.next{
